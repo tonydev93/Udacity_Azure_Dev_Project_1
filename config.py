@@ -6,10 +6,10 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'articlemanagement'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'NCl2aANHjTUyBhqp582ktIQ6LJUK3T1MoHSs8NqWIZpexC8RXW9GbvoyiuiTZks/Ip46R8QTPpqE+AStDmJ/8w=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'aQqe0KsBlhmoSG85coTdTisCWLipoHHxz/sPz4Z3V9NFfCe6VVSUEQf6o91DFUDHis3iBaY6Jt6d+AStl9ejqA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'article-managment-server.database.windows.net'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'article-management-server.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'article-management'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'admin123'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Admin@123'
